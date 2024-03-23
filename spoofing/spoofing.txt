@@ -1,1 +1,5 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+The problem with insecure.js is that it allows session information to be set programmatically without restricting access to it.
+ This makes it easy for attackers to hijack sessions or perform cross-site request forgery attacks.
+ The secure version of the code fixes this by making sure that session data can only be accessed through secure channels, preventing unauthorized access and potential attacks.
